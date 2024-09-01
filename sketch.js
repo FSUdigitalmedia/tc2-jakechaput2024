@@ -11,8 +11,12 @@ function draw() {
   background(135, 206, 235);
   //sun in top-right corner
   fill("yellow");
+  stroke ("orange");
+  strokeWeight(20); //outline
   circle(550, 50, 100);
- 
+ stroke(0);
+strokeWeight(1);
+  
   //grass on bottom half
   fill("green");
   rect(0, 200, 600, 200);
